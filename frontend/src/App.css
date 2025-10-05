@@ -1,0 +1,104 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  background: #050509;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  height: 100vh;
+}
+
+.panel-left {
+  padding: 30px;
+  overflow-y: auto;
+  background: rgba(10, 10, 25, 0.95);
+  box-shadow: 0 0 30px cyan;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #00fff7;
+  text-shadow: 0 0 15px #00fff7;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: rgba(20, 20, 35, 0.9);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.card h2, .card h3 {
+  color: #00fff7;
+  text-shadow: 0 0 8px #00fff7;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  background: #111;
+  border: none;
+  color: white;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, cyan, magenta);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 15px cyan;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px magenta;
+}
+
+.results {
+  background: rgba(0, 255, 255, 0.1);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.results .desc {
+  margin-top: 10px;
+  color: #aaf;
+  font-size: 0.9rem;
+}
+
+.presets button {
+  margin-top: 8px;
+}
+
+.footer {
+  text-align: center;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+.panel-right {
+  position: relative;
+  background: radial-gradient(circle at center, #080818, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
