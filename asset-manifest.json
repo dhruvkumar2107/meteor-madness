@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/meteor-madness/static/css/main.bf9d6f72.css",
+    "main.js": "/meteor-madness/static/js/main.6a0d8ef1.js",
+    "index.html": "/meteor-madness/index.html",
+    "main.bf9d6f72.css.map": "/meteor-madness/static/css/main.bf9d6f72.css.map",
+    "main.6a0d8ef1.js.map": "/meteor-madness/static/js/main.6a0d8ef1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf9d6f72.css",
+    "static/js/main.6a0d8ef1.js"
+  ]
+}
